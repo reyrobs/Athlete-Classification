@@ -22,6 +22,12 @@
 ## Project Description
 
 The purpose of this project is to perform classification of famous athletes with the use of OpenCV. We have made use of two seperate datasets, both of which contained 5 athletes to be classified. The first one was supplied from Dhaval Patel [[1]](#1), from whom we also got the inspiration to do to the project. The second dataset was obtained with the help of web scraping. The classifiers used to perform the classification were Support Vector Machines, Random Forrest and Logistic Regression, all with the help of GridSearchCV, such as to be able to find the best hyper parameters. 
+</br>
+</br>
+The first step after obtaining the data was to crop the face of each athlete and use those cropped images for the training of our classifiers, since the face is the main part used to differentiate the athletes from each other. In order to detect the faces, we have made use of the OpenCV Haar Cascades xml files, which act themselves as a classifier. Once the faces cropped, we use wavelet transform to create a new image from the cropped image in order to highlight the essential features of the face. Since the original image also contains important features, we stack both the original image and the one obtained from applying the wavelet transform and feed it as input to the classifiers. 
+</br>
+</br>
+Our results show that we obtained much better results with the first dataset, i.e the one already provided to us. We believe that the reason for this has to do with the quality between the two datasets. The first dataset simply had better resolution, which resulted in more useful information being conveyed in the image. 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
