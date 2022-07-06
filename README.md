@@ -32,17 +32,19 @@ Our results show that we obtained much better results with the first dataset, i.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-<!-- ROADMAP -->
-## Roadmap
+<!-- Data Exploration -->
+## Dataset 1 Exploration 
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-- [ ] Nested Feature
+### Sample image from dataset
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+
+
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+## Dataset 2 Exploration 
 
 
 
