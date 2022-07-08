@@ -33,38 +33,98 @@ Our results show that we obtained much better results with the first dataset, i.
 
 
 <!-- Data Exploration -->
-## Dataset 1 Exploration 
+## Data Exploration 
 
-### Sample image from dataset
+### Dataset 1 Histogram 
+![alt text](https://github.com/reyrobs/Athlete-Classification/blob/main/dataset1_histo.png?raw=true)
+### Dataset 2 Histogram 
+![alt text](https://github.com/reyrobs/Athlete-Classification/blob/main/dataset2_histo.png?raw=true)
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+## Face detection 
+
+![alt text](https://github.com/reyrobs/Athlete-Classification/blob/main/sharapova_resized.png?raw=true)
+&emsp;&emsp;&emsp;&emsp;
+![alt text](https://github.com/reyrobs/Athlete-Classification/blob/main/sharapova_face_resized.png?raw=true)
+&emsp;&emsp;&emsp;&emsp;
+![alt text](https://github.com/reyrobs/Athlete-Classification/blob/main/sharapova_cropped_resized.png?raw=true)
+<br>
+![alt text](https://github.com/reyrobs/Athlete-Classification/blob/main/andy_murray_resized.png?raw=true)
+&emsp;&emsp;&emsp;&emsp;
+![alt text](https://github.com/reyrobs/Athlete-Classification/blob/main/andy_murray_face_resized.png?raw=true)
+&emsp;&emsp;&emsp;&emsp;
+![alt text](https://github.com/reyrobs/Athlete-Classification/blob/main/andy_murray_cropped_resized.png?raw=true)
 
 
-
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-## Dataset 2 Exploration 
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+## Wavelet Transform
+Once the images were cropped, we made use of the wavelet transform in order to extract the important features of the face. The main idea of the wavelet transform is the ability to capture both local spectral and temporal information. More information about it can be found here [[2]](#2).
 
+![alt text](https://github.com/reyrobs/Athlete-Classification/blob/main/sharapova_cropped_resized.png?raw=true)
+&emsp;&emsp;&emsp;&emsp;
+![alt text](https://github.com/reyrobs/Athlete-Classification/blob/main/sharapova_wavelet_resized.png?raw=true)
+<br>
+![alt text](https://github.com/reyrobs/Athlete-Classification/blob/main/andy_murray_cropped_resized.png?raw=true)
+&emsp;&emsp;&emsp;&emsp;
+![alt text](https://github.com/reyrobs/Athlete-Classification/blob/main/murray_wavelet_resized.png?raw=true)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Results and discussion
+
+### Dataset 1
+
+<table>
+<thead>
+  <tr>
+    <th>Classifier</th>
+    <th>Testing Accuracy</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>SVM</td>
+    <td>0.914</td>
+  </tr>
+  <tr>
+    <td>Random Forest</td>
+    <td>0.723</td>
+  </tr>
+  <tr>
+    <td>Logistic Regression</td>
+    <td>0.894</td>
+  </tr>
+</tbody>
+</table>
+
+### Dataset 2
+
+<table>
+<thead>
+  <tr>
+    <th>Classifier</th>
+    <th>Testing Accuracy</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>SVM</td>
+    <td>0.545</td>
+  </tr>
+  <tr>
+    <td>Random Forest</td>
+    <td>0.455</td>
+  </tr>
+  <tr>
+    <td>Logistic Regression</td>
+    <td>0.515</td>
+  </tr>
+</tbody>
+</table>
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- LICENSE -->
 ## License
@@ -85,12 +145,15 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-
-<!-- ACKNOWLEDGMENTS -->
 ## References
 <a id="1">[1]</a> 
-Dhaval Patel
+Dhaval Patel,
 https://codebasics.io/
+
+<a id="2">[2]</a> 
+The Wavelet Transform,
+Shawhin Talebi,
+https://towardsdatascience.com/the-wavelet-transform-e9cfa85d7b34
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
