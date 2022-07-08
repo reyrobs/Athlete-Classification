@@ -123,8 +123,22 @@ Once the images were cropped, we made use of the wavelet transform in order to e
 </tbody>
 </table>
 
+From the results obtained above, we can see that SVM performed the best for both datasets. We clearly see a much better performance on the first dataset however, and we believe this is due to the better resolution of the images used, which allowed for more features to be captured. Additionally, we made use of GridSearchCV in order to try and find the best hyperparameters for our models. 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+## Confusion matrix for best model
+![alt text](https://github.com/reyrobs/Athlete-Classification/blob/main/cm.png?raw=true)
+
+<!-- CONTACT -->
+## Contact
+
+Robert Rey - [LinkedIn](https://www.linkedin.com/in/robert-rey-36689a103/)
+
+Project Link: [Athlete Classification](https://github.com/reyrobs/Athlete-Classification)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 
 <!-- LICENSE -->
 ## License
@@ -134,15 +148,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 ## References
