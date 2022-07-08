@@ -87,6 +87,6 @@ def search_and_download(search_term: str, driver_path: str, target_path='./image
             persist_image(target_folder, elem)
 
 def main():
-    search_terms = ['Roger Federer ', 'Nadal',  'Gael Monfils']
+    search_terms = ['Roger Federer ', 'Nadal',  'Gael Monfils', 'Serena Williams']
     for search_term in search_terms:
         search_and_download(search_term=search_term, driver_path='./chromedriver-1')
