@@ -36,23 +36,23 @@ Our results show that we obtained much better results with the first dataset, i.
 ## Data Exploration 
 
 ### Dataset 1 Histogram 
-![alt text](https://github.com/reyrobs/Athlete-Classification/blob/main/dataset1_histo.png?raw=true)
+![alt text](https://github.com/reyrobs/Athlete-Classification/blob/main/images/dataset1_histo.png?raw=true)
 ### Dataset 2 Histogram 
-![alt text](https://github.com/reyrobs/Athlete-Classification/blob/main/dataset2_histo.png?raw=true)
+![alt text](https://github.com/reyrobs/Athlete-Classification/blob/main/images/dataset2_histo.png?raw=true)
 
 ## Face detection 
 
-![alt text](https://github.com/reyrobs/Athlete-Classification/blob/main/sharapova_resized.png?raw=true)
+![alt text](https://github.com/reyrobs/Athlete-Classification/blob/main/images/sharapova_resized.png?raw=true)
 &emsp;&emsp;&emsp;&emsp;
-![alt text](https://github.com/reyrobs/Athlete-Classification/blob/main/sharapova_face_resized.png?raw=true)
+![alt text](https://github.com/reyrobs/Athlete-Classification/blob/main/images/sharapova_face_resized.png?raw=true)
 &emsp;&emsp;&emsp;&emsp;
-![alt text](https://github.com/reyrobs/Athlete-Classification/blob/main/sharapova_cropped_resized.png?raw=true)
+![alt text](https://github.com/reyrobs/Athlete-Classification/blob/main/images/sharapova_cropped_resized.png?raw=true)
 <br>
-![alt text](https://github.com/reyrobs/Athlete-Classification/blob/main/andy_murray_resized.png?raw=true)
+![alt text](https://github.com/reyrobs/Athlete-Classification/blob/main/images/andy_murray_resized.png?raw=true)
 &emsp;&emsp;&emsp;&emsp;
-![alt text](https://github.com/reyrobs/Athlete-Classification/blob/main/andy_murray_face_resized.png?raw=true)
+![alt text](https://github.com/reyrobs/Athlete-Classification/blob/main/images/andy_murray_face_resized.png?raw=true)
 &emsp;&emsp;&emsp;&emsp;
-![alt text](https://github.com/reyrobs/Athlete-Classification/blob/main/andy_murray_cropped_resized.png?raw=true)
+![alt text](https://github.com/reyrobs/Athlete-Classification/blob/main/images/andy_murray_cropped_resized.png?raw=true)
 
 
 
@@ -61,13 +61,13 @@ Our results show that we obtained much better results with the first dataset, i.
 ## Wavelet Transform
 Once the images were cropped, we made use of the wavelet transform in order to extract the important features of the face. The main idea of the wavelet transform is the ability to capture both local spectral and temporal information. More information about it can be found here [[2]](#2).
 
-![alt text](https://github.com/reyrobs/Athlete-Classification/blob/main/sharapova_cropped_resized.png?raw=true)
+![alt text](https://github.com/reyrobs/Athlete-Classification/blob/main/images/sharapova_cropped_resized.png?raw=true)
 &emsp;&emsp;&emsp;&emsp;
-![alt text](https://github.com/reyrobs/Athlete-Classification/blob/main/sharapova_wavelet_resized.png?raw=true)
+![alt text](https://github.com/reyrobs/Athlete-Classification/blob/main/images/sharapova_wavelet_resized.png?raw=true)
 <br>
-![alt text](https://github.com/reyrobs/Athlete-Classification/blob/main/andy_murray_cropped_resized.png?raw=true)
+![alt text](https://github.com/reyrobs/Athlete-Classification/blob/main/images/andy_murray_cropped_resized.png?raw=true)
 &emsp;&emsp;&emsp;&emsp;
-![alt text](https://github.com/reyrobs/Athlete-Classification/blob/main/murray_wavelet_resized.png?raw=true)
+![alt text](https://github.com/reyrobs/Athlete-Classification/blob/main/images/murray_wavelet_resized.png?raw=true)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -128,7 +128,7 @@ From the results obtained above, we can see that SVM performed the best for both
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Confusion matrix for best model
-![alt text](https://github.com/reyrobs/Athlete-Classification/blob/main/cm.png?raw=true)
+![alt text](https://github.com/reyrobs/Athlete-Classification/blob/main/images/cm.png?raw=true)
 
 <!-- CONTACT -->
 ## Contact
