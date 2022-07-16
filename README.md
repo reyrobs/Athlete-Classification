@@ -11,11 +11,14 @@
     <li>
       <a href="#project-description">Project Description</a>
     </li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#data-exploration">Data Exploration</a></li>
+    <li><a href="#face-detection">Face detection</a></li>
+    <li><a href="#wavelet-transform">Wavelet Transform</a></li>
+    <li><a href="#results-and-discussion">Results and discussion</a></li>
+    <li><a href="#confusion-matrix-for-best-model">Confusion matrix for best model</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">References</a></li>
+    <li><a href="#references">References</a></li>
   </ol>
 </details>
 
